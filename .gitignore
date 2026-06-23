@@ -1,0 +1,17 @@
+# Compiled binaries
+*.exe
+*.o
+*.obj
+*.out
+
+# Build folder
+build/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code local settings (optional to keep)
+.vscode/launch.json
+.vscode/settings.json

@@ -1,0 +1,121 @@
+
+========================================================================
+       Lightweight Cryptography Performance Benchmark (PC)             
+                        Interactive Mode                               
+========================================================================
+
+
+========================================================================
+
+
+------------------------------------------------------------------------
+Testing with message size: 16 bytes | Iterations: 50000
+------------------------------------------------------------------------
+Algorithm    | Message Size | Iterations |   Time   | Throughput  | Avg Time
+------------------------------------------------------------------------
+AES-128      |     16 bytes |      50000 runs |    0.015 s |      50.86 MB/s |     0.30 us/op
+SPECK-128    |     16 bytes |      50000 runs |    0.003 s |     254.31 MB/s |     0.06 us/op
+ASCON-128    |     16 bytes |      50000 runs |    0.016 s |      47.68 MB/s |     0.32 us/op
+------------------------------------------------------------------------
+
+>> FASTEST: SPECK-128
+   Time: 0.003 seconds | Throughput: 254.31 MB/s
+
+Performance Comparison:
+  SPECK vs AES: 5.00x faster
+  ASCON vs AES: 0.94x slower
+  SPECK vs ASCON: 5.33x faster
+
+========================================================================
+
+
+------------------------------------------------------------------------
+Testing with message size: 32 bytes | Iterations: 50000
+------------------------------------------------------------------------
+Algorithm    | Message Size | Iterations |   Time   | Throughput  | Avg Time
+------------------------------------------------------------------------
+AES-128      |     32 bytes |      50000 runs |    0.026 s |      58.69 MB/s |     0.52 us/op
+SPECK-128    |     32 bytes |      50000 runs |    0.007 s |     217.98 MB/s |     0.14 us/op
+ASCON-128    |     32 bytes |      50000 runs |    0.021 s |      72.66 MB/s |     0.42 us/op
+------------------------------------------------------------------------
+
+>> FASTEST: SPECK-128
+   Time: 0.007 seconds | Throughput: 217.98 MB/s
+
+Performance Comparison:
+  SPECK vs AES: 3.71x faster
+  ASCON vs AES: 1.24x faster
+  SPECK vs ASCON: 3.00x faster
+
+========================================================================
+
+
+------------------------------------------------------------------------
+Testing with message size: 64 bytes | Iterations: 50000
+------------------------------------------------------------------------
+Algorithm    | Message Size | Iterations |   Time   | Throughput  | Avg Time
+------------------------------------------------------------------------
+AES-128      |     64 bytes |      50000 runs |    1.960 s |       1.56 MB/s |    39.20 us/op
+SPECK-128    |     64 bytes |      50000 runs |    0.326 s |       9.36 MB/s |     6.52 us/op
+ASCON-128    |     64 bytes |      50000 runs |    0.672 s |       4.54 MB/s |    13.44 us/op
+------------------------------------------------------------------------
+
+>> FASTEST: SPECK-128
+   Time: 0.326 seconds | Throughput: 9.36 MB/s
+
+Performance Comparison:
+  SPECK vs AES: 6.01x faster
+  ASCON vs AES: 2.92x faster
+  SPECK vs ASCON: 2.06x faster
+
+========================================================================
+
+
+------------------------------------------------------------------------
+Testing with message size: 128 bytes | Iterations: 50000
+------------------------------------------------------------------------
+Algorithm    | Message Size | Iterations |   Time   | Throughput  | Avg Time
+------------------------------------------------------------------------
+AES-128      |    128 bytes |      50000 runs |    2.527 s |       2.42 MB/s |    50.54 us/op
+SPECK-128    |    128 bytes |      50000 runs |    0.465 s |      13.13 MB/s |     9.30 us/op
+ASCON-128    |    128 bytes |      50000 runs |    1.043 s |       5.85 MB/s |    20.86 us/op
+------------------------------------------------------------------------
+
+>> FASTEST: SPECK-128
+   Time: 0.465 seconds | Throughput: 13.13 MB/s
+
+Performance Comparison:
+  SPECK vs AES: 5.43x faster
+  ASCON vs AES: 2.42x faster
+  SPECK vs ASCON: 2.24x faster
+
+========================================================================
+
+
+------------------------------------------------------------------------
+Testing with message size: 256 bytes | Iterations: 50000
+------------------------------------------------------------------------
+Algorithm    | Message Size | Iterations |   Time   | Throughput  | Avg Time
+------------------------------------------------------------------------
+AES-128      |    256 bytes |      50000 runs |    4.585 s |       2.66 MB/s |    91.70 us/op
+SPECK-128    |    256 bytes |      50000 runs |    0.650 s |      18.78 MB/s |    13.00 us/op
+ASCON-128    |    256 bytes |      50000 runs |    1.147 s |      10.64 MB/s |    22.94 us/op
+------------------------------------------------------------------------
+
+>> FASTEST: SPECK-128
+   Time: 0.650 seconds | Throughput: 18.78 MB/s
+
+Performance Comparison:
+  SPECK vs AES: 7.05x faster
+  ASCON vs AES: 4.00x faster
+  SPECK vs ASCON: 1.76x faster
+
+========================================================================
+
+
+Exiting benchmark program. Goodbye!
+
+========================================================================
+                          Benchmark Complete!                          
+========================================================================
+
