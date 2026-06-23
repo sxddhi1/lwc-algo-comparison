@@ -1,6 +1,5 @@
 
-Readme · MD
-# lwc-algo-comparison
+## Lightweight cryptographic algorithms comparison
  
 A benchmarking project that compares the performance of three lightweight
 cryptographic algorithms implemented in C, tested across multiple message sizes as a part of CSE_3121 PRINCIPLES OF CRYPTOGRAPHY class.
